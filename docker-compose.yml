@@ -1,0 +1,9 @@
+services:
+  agentic-bi-copilot:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      PYTHONUNBUFFERED: "1"
+    volumes:
+      - ./outputs:/app/outputs

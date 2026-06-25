@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Which categories grew the most?",
+    "expected_answer_type": "category_growth",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "category",
+    "expected_keywords_in_answer": ["Category growth", "Top growing categories", "4WD Accessories"]
+  },
+  {
+    "question": "Which product categories declined in the latest month?",
+    "expected_answer_type": "category_growth",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "decline",
+    "expected_keywords_in_answer": ["Category growth", "Latest month", "Top declining categories"]
+  },
+  {
+    "question": "Show category revenue growth and decline.",
+    "expected_answer_type": "category_growth",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "growth",
+    "expected_keywords_in_answer": ["Top growing categories", "Business interpretation", "Category Revenue Change"]
+  },
+  {
+    "question": "Which low stock products create the biggest inventory risk?",
+    "expected_answer_type": "inventory_risk",
+    "expected_sql_task": "low_stock_high_revenue",
+    "expected_focus_area_keyword": "reorder",
+    "expected_keywords_in_answer": ["Inventory risk", "Total estimated revenue at risk", "Vector Shower Ensuite"]
+  },
+  {
+    "question": "Which products should we reorder first?",
+    "expected_answer_type": "inventory_risk",
+    "expected_sql_task": "low_stock_high_revenue",
+    "expected_focus_area_keyword": "reorder",
+    "expected_keywords_in_answer": ["High-revenue low-stock products", "reorder level", "estimated revenue at risk"]
+  },
+  {
+    "question": "Where is stock risk highest?",
+    "expected_answer_type": "inventory_risk",
+    "expected_sql_task": "low_stock_high_revenue",
+    "expected_focus_area_keyword": "reorder",
+    "expected_keywords_in_answer": ["Inventory risk", "Recommended actions", "Inventory Risk Top Products"]
+  },
+  {
+    "question": "Why did margin pressure increase in June?",
+    "expected_answer_type": "margin_pressure",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "supplier",
+    "expected_keywords_in_answer": ["Margin pressure", "Supplier price increases", "Coastal Solar Blanket"]
+  },
+  {
+    "question": "Which products are affected by supplier price increases?",
+    "expected_answer_type": "margin_pressure",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "supplier",
+    "expected_keywords_in_answer": ["Affected products", "supplier cost increase", "Categories most affected"]
+  },
+  {
+    "question": "Where are cost increases hurting gross margin?",
+    "expected_answer_type": "margin_pressure",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "margin",
+    "expected_keywords_in_answer": ["Margin pressure", "gross margin percentage", "Recommended actions"]
+  },
+  {
+    "question": "What are the top products by revenue?",
+    "expected_answer_type": "top_products",
+    "expected_sql_task": "top_products_by_revenue",
+    "expected_focus_area_keyword": "products",
+    "expected_keywords_in_answer": ["Top products by revenue", "Apex Roof Rack Platform", "gross margin"]
+  },
+  {
+    "question": "Which are our best products?",
+    "expected_answer_type": "top_products",
+    "expected_sql_task": "top_products_by_revenue",
+    "expected_focus_area_keyword": "products",
+    "expected_keywords_in_answer": ["Highest revenue products", "Products", "Recommendation"]
+  },
+  {
+    "question": "Why did sales change this month and what should we do next?",
+    "expected_answer_type": "monthly_summary",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "monthly",
+    "expected_keywords_in_answer": ["Summary", "Latest month revenue", "Recommended actions"]
+  },
+  {
+    "question": "Show the monthly sales trend.",
+    "expected_answer_type": "monthly_summary",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "monthly",
+    "expected_keywords_in_answer": ["Summary", "Key findings", "Charts generated"]
+  },
+  {
+    "question": "Give me an overall business performance review.",
+    "expected_answer_type": "general_business_review",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "overall",
+    "expected_keywords_in_answer": ["Summary", "Key findings", "Evidence"]
+  },
+  {
+    "question": "What should leadership know from the latest business data?",
+    "expected_answer_type": "general_business_review",
+    "expected_sql_task": "monthly_sales_summary",
+    "expected_focus_area_keyword": "overall",
+    "expected_keywords_in_answer": ["Summary", "Recommended actions", "Document context"]
+  }
+]

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.git/
+.env
+*.pyc
+.pytest_cache/
+*.db
+data/processed/*.db
+outputs/charts/*.png
+outputs/evals/*.json
+outputs/evals/*.md
